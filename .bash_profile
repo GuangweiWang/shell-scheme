@@ -1,22 +1,12 @@
 #schem for guangwei
+export LANG=en_US.UTF-8
+export LANGUAGE=en_US.UTF-8
+export LC_ALL=en_US.UTF-8
+
 #ps schem
 #export PS1='\[\e[1;32m\][\u@\h \W]\$\[\e[0m\]'
 #export PS1='\[\e[0;33m\]\u\[\e[0m\]@\[\e[0;32m\]\h\[\e[0m\]:\[\e[0;34m\]\w\[\e[0m\]\$ '
 #export PS1='\[\e[0;32m\]\h\[\e[0m\]:\[\e[0;34m\]\w\[\e[0m\]\e[0;33m\]\u\[\e[0m\]\$ '
-
-#path
-
-
-#git schem
-source ~/.git-completion.bash
-
-#command
-alias ll="ls -l"
-
-#ls schem
-
-#grep schem
-export GREP_OPTIONS="--color=auto"
 
 #colors schem
 #export COLOR_NC='\e[0m' # No Color
@@ -37,9 +27,41 @@ export GREP_OPTIONS="--color=auto"
 #export COLOR_GRAY='\e[0;30m'
 #export COLOR_LIGHT_GRAY='\e[0;37m'
 
-export CLICOLOR=1
 #export LS_COLORS="rs=0:di=01;34:ln=01;36:mh=00:pi=40;33"
 #export LSCOLORS=exfxcxdxbxegedabagacad
 #export LSCOLORS=GxFxCxDxBxegedabagaced
 #export LSCOLORS=ExFxCxDxBxegedabagacad
 #export TERM="xterm-color" 
+export CLICOLOR=1
+
+#git schem
+source ~/.git-completion.bash
+
+#command
+alias ll="ls -l"
+
+#grep schem
+export GREP_OPTIONS="--color=auto"
+
+#android
+export ANDROID_HOME="$HOME/Library/Android/sdk"
+export ANDROID_NDK_HOME="$HOME/Library/Android/android-ndk-r14"
+export ANDROID_NDK=$ANDROID_NDK_HOME
+
+export PATH=$ANDROID_NDK_HOME:$ANDROID_HOME/Platform-tools:$ANDROID_HOME/tools:$PATH
+
+#
+
+
+
+
+
+
+
+
+
+
+
+
+
+
